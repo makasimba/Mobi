@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* My code */
+:root {
+  --orange: rgb(255, 120, 0);
+}
+
+@font-face {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  src: url("Rennes/Rennes Regular/Regular.ttf");
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  position: relative;
+}
+body .standard-padding {
+  margin: 0 6.5em;
+}
+body .logo-image {
+  padding-left: 3em;
+}
+body .info-box {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  background-color: var(--orange);
+  width: 35%;
+  font-size: 1.2rem;
+  color: black;
+  margin-left: 11%;
+  margin-top: 52%;
+  padding: 4%;
+  font-weight: 400;
+  line-height: 2rem;
+}
+body .info-box .info-box-subtext {
+  padding-top: 1.1em;
+  color: black;
+  opacity: 60%;
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+.landing {
+  font-size: 3.8rem;
+}
+.landing span {
+  color: var(--orange);
+}
+.landing .empty-white-space {
+  height: 5rem;
+}
+
+.about {
+  position: relative;
+  background-color: black;
+}
+.about .img-fluid {
+  height: 75%;
+}
+.about .bg-orange {
+  background-color: var(--orange);
+}
+.about .about-text {
+  font-size: 1rem;
+}
+.about .black-empty-space {
+  height: 5rem;
+}
+
+.gallery h2 {
+  color: var(--orange);
+}/*# sourceMappingURL=style.css.map */
